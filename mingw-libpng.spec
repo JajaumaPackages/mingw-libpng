@@ -2,7 +2,7 @@
 
 Name:           mingw-libpng
 Version:        1.6.27
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows Libpng library
 
 License:        zlib
@@ -133,6 +133,9 @@ rm -rf $RPM_BUILD_ROOT%{mingw64_mandir}
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.6.27-2
+- Rebuild with GCC 5.4.0
+
 * Fri Dec 30 2016 Kalev Lember <klember@redhat.com> - 1.6.27-1
 - Update to 1.6.27
 
